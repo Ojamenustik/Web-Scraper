@@ -1,4 +1,8 @@
+import org.apache.poi.hssf.usermodel.HSSFWorkbook;
+import org.apache.poi.ss.usermodel.CellStyle;
 import org.apache.poi.ss.usermodel.Row;
+import org.apache.poi.ss.usermodel.Sheet;
+import org.apache.poi.ss.usermodel.Workbook;
 import org.apache.poi.xssf.usermodel.XSSFSheet;
 import org.apache.poi.xssf.usermodel.XSSFWorkbook;
 import org.jsoup.Jsoup;
@@ -7,6 +11,7 @@ import org.jsoup.nodes.Element;
 import org.jsoup.select.Elements;
 
 import java.io.FileOutputStream;
+import java.io.OutputStream;
 import java.util.*;
 
 import java.io.IOException;
@@ -15,14 +20,21 @@ import java.io.IOException;
 public class main {
     public static void main(String[] args) throws IOException {
 
-        XSSFWorkbook workbook = new XSSFWorkbook();
-        XSSFSheet sheet = workbook.createSheet("Attacks");
+        Workbook workbook = new XSSFWorkbook();
+        Sheet sheet = workbook.createSheet("Attacks");
         int rowCount = 0;
+        Row excelRow = sheet.createRow(rowCount);
+        rowCount++;
+        Attack HeaderOfAttacks = new Attack("Year", "Month", "Day", "Type", "Dead",
+                "Dead Perpetrator", "Injured", "Injured Perpetrator",
+                "Location", "Details", "Perpetrator");
+        ExcelWriter.writeAttack(HeaderOfAttacks, excelRow);
+
 
         final String url = "https://en.wikipedia.org/";
         List<String> WebsiteLinks = new ArrayList<String>();
         List<String> MonthsLinks = new ArrayList<String>();
-
+;
         try {
             final Document document = Jsoup.connect(url + "wiki/List_of_terrorist_incidents#1970%E2%80%93present").get();
             Elements bigLists = document.getElementsByClass("div-col columns column-width");
@@ -121,12 +133,12 @@ public class main {
                         System.out.println(year+ "/"+ month + "/" + day + ":" + type + " " + dead + " " +deadPerpetrator + " " + injured + " " + injuredPerpetrator + " " + location + " " + perpetrator);
 
 
-                        Row excelRow = sheet.createRow(rowCount);
+                        excelRow = sheet.createRow(rowCount);
                         Attack attack = new Attack(year, month ,day, type, dead, deadPerpetrator, injured,injuredPerpetrator, location, details, perpetrator);
 
                         ExcelWriter.writeAttack(attack, excelRow);
 
-                        rowCount++;
+                       rowCount++;
 
 
                     }
@@ -159,8 +171,8 @@ public class main {
             ex.printStackTrace();
         }
 
-        try (FileOutputStream outputStream = new FileOutputStream("Wiki terrorism data.xlsx")) {
-            workbook.write(outputStream);
+        try (OutputStream fileOut = new FileOutputStream("Wiki terrorism data.xlsx")) {
+            workbook.write(fileOut);
         }
 
     }
