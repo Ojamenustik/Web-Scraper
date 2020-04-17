@@ -1,5 +1,6 @@
-public class Attack {
+public  class Attack {
 
+    private String year;
     private String monthDay;
     private String type;
     private String dead;
@@ -9,7 +10,8 @@ public class Attack {
     private String perpetrator;
 
 
-    public Attack(String monthDay, String type, String dead, String injured, String location, String details, String perpetrator) {
+    public Attack(String year, String monthDay, String type, String dead, String injured, String location, String details, String perpetrator) {
+        this.year = year;
         this.monthDay = monthDay;
         this.type = type;
         this.dead = dead;
@@ -17,6 +19,10 @@ public class Attack {
         this.location = location;
         this.details = details;
         this.perpetrator = perpetrator;
+    }
+
+    public Attack(String monthDay) {
+        this.monthDay = monthDay;
     }
 
 

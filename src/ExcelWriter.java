@@ -1,10 +1,36 @@
-import org.apache.poi.xssf.usermodel.XSSFSheet;
-import org.apache.poi.xssf.usermodel.XSSFWorkbook;
+
+import org.apache.poi.ss.usermodel.Cell;
+import org.apache.poi.ss.usermodel.Row;
+
 
 public class ExcelWriter {
 
-    //XSSFWorkbook workbook = new XSSFWorkbook();
-    //XSSFSheet sheet = workbook.createSheet("Attack");
+    public static void writeAttack(Attack anAttack, Row row) {
+
+        int cellCount = 0;
+
+        Cell cell = row.createCell(cellCount++);
+        cell.setCellValue(anAttack.getMonthDay());
+
+        cell = row.createCell(cellCount++);
+        cell.setCellValue(anAttack.getType());
+
+        cell = row.createCell(cellCount++);
+        cell.setCellValue(anAttack.getDead());
+
+        cell = row.createCell(cellCount++);
+        cell.setCellValue(anAttack.getInjured());
+
+        cell = row.createCell(cellCount++);
+        cell.setCellValue(anAttack.getLocation());
+
+        cell = row.createCell(cellCount++);
+        cell.setCellValue(anAttack.getDetails());
+
+        cell = row.createCell(cellCount++);
+        cell.setCellValue(anAttack.getPerpetrator());
+    }
 
 
 }
+
