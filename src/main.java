@@ -15,8 +15,8 @@ import java.io.IOException;
 public class main {
     public static void main(String[] args) throws IOException {
 
-//        XSSFWorkbook workbook = new XSSFWorkbook();
-//        XSSFSheet sheet = workbook.createSheet("Attacks");
+        XSSFWorkbook workbook = new XSSFWorkbook();
+        XSSFSheet sheet = workbook.createSheet("Attacks");
         int rowCount = 0;
 
         final String url = "https://en.wikipedia.org/";
@@ -68,7 +68,19 @@ public class main {
         try {
             Map<String, String> MonthToNumberMap = new HashMap<>() {{
                 put("January", "1");
+                put("February", "2");
+                put("March", "3");
+                put("April", "4");
+                put("May", "5");
+                put("June", "6");
+                put("July", "7");
+                put("August", "8");
+                put("September", "9");
+                put("October", "10");
+                put("November", "11");
+                put("December", "12");
             }};
+
             Document document;
             for (String i : MonthsLinks) {
                 document = Jsoup.connect(url + i.toString()).get();
@@ -77,7 +89,9 @@ public class main {
                 String titleText = title.text();
                String Words[] = titleText.split(" ");
                final String year = Words[Words.length - 1];
-               final String month = Words[Words.length - 2];
+               final String month = MonthToNumberMap.get(Words[Words.length - 2]);
+
+//               final String monthName = MonthToNumberMap.get(month);
                // System.out.println(year + month);
 
 //                System.out.println(document.getElementsByClass("wikitable sortable").select("thead tr thnth-of-type(1)"));
@@ -88,23 +102,33 @@ public class main {
                     } else {
                         final String day = row.select("td:nth-of-type(1)").text();
                         final String type = row.select("td:nth-of-type(2)").text();
-                        final String dead = row.select("td:nth-of-type(3)").text();
-                        final String injured = row.select("td:nth-of-type(4)").text();
+                        String dead = row.select("td:nth-of-type(3)").text();
+                        String injured = row.select("td:nth-of-type(4)").text();
                         final String location = row.select("td:nth-of-type(5)").text();
                         final String details = row.select("td:nth-of-type(6)").text();
                         final String perpetrator = row.select("td:nth-of-type(7)").text();
+                        String deadPerpetrator = "";
+                        if(dead.contains("(+")) {
+                            deadPerpetrator = dead.split("\\(\\+")[1].split("\\)")[0];
+                            dead = dead.split("\\(\\+")[0].trim();
+                        }
+                        String injuredPerpetrator = "";
+                        if(injured.contains("(+")) {
+                            injuredPerpetrator = injured.split("\\(\\+")[1].split("\\)")[0];
+                            injured = injured.split("\\(\\+")[0].trim();
+                        }
 
-                        System.out.println(year+ "/"+ month + "/" + day + ":" + type + " " + dead + " "+ injured + " " + location + " " + perpetrator);
-//
-//
-//                        Row excelRow = sheet.createRow(rowCount);
-//                        Attack attack = new Attack(year, monthDay, type, dead, injured, location, details, perpetrator);
-//
-//                        ExcelWriter.writeAttack(attack, excelRow);
-//
-//                        rowCount++;
-//
-//
+                        System.out.println(year+ "/"+ month + "/" + day + ":" + type + " " + dead + " " +deadPerpetrator + " " + injured + " " + injuredPerpetrator + " " + location + " " + perpetrator);
+
+
+                        Row excelRow = sheet.createRow(rowCount);
+                        Attack attack = new Attack(year, month ,day, type, dead, deadPerpetrator, injured,injuredPerpetrator, location, details, perpetrator);
+
+                        ExcelWriter.writeAttack(attack, excelRow);
+
+                        rowCount++;
+
+
                     }
                 }
 
@@ -129,12 +153,15 @@ public class main {
                 //     }
 
 
-//        try (FileOutputStream outputStream = new FileOutputStream("Wiki terrorism data.xlsx")) {
-//            workbook.write(outputStream);
-//        }
+
             }
         }catch (Exception ex) {
             ex.printStackTrace();
         }
+
+        try (FileOutputStream outputStream = new FileOutputStream("Wiki terrorism data.xlsx")) {
+            workbook.write(outputStream);
+        }
+
     }
 }

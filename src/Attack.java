@@ -1,37 +1,55 @@
 public  class Attack {
 
+    public String getYear() {
+        return year;
+    }
+
+    public String getMonth() {
+        return month;
+    }
+
+    public String getDeadPerpetrator() {
+        return deadPerpetrator;
+    }
+
+    public String getInjuredPerpetrator() {
+        return injuredPerpetrator;
+    }
+
     private String year;
-    private String monthDay;
+    private String month;
+    private String day;
     private String type;
     private String dead;
+    private String deadPerpetrator;
     private String injured;
+    private String injuredPerpetrator;
     private String location;
     private String details;
     private String perpetrator;
 
 
-    public Attack(String year, String monthDay, String type, String dead, String injured, String location, String details, String perpetrator) {
+    public Attack(String year, String month, String day, String type, String dead, String deadPerpetrator, String injured, String injuredPerpetrator, String location, String details, String perpetrator) {
         this.year = year;
-        this.monthDay = monthDay;
+        this.month = month;
+        this.day = day;
         this.type = type;
         this.dead = dead;
+        this.deadPerpetrator = deadPerpetrator;
         this.injured = injured;
+        this.injuredPerpetrator = injuredPerpetrator;
         this.location = location;
         this.details = details;
         this.perpetrator = perpetrator;
     }
 
-    public Attack(String monthDay) {
-        this.monthDay = monthDay;
+
+    public String getDay() {
+        return day;
     }
 
-
-    public String getMonthDay() {
-        return monthDay;
-    }
-
-    public void setMonthDay(String monthDay) {
-        this.monthDay = monthDay;
+    public void setDay(String day) {
+        this.day = day;
     }
 
     public String getType() {

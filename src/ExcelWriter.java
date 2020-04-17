@@ -10,7 +10,13 @@ public class ExcelWriter {
         int cellCount = 0;
 
         Cell cell = row.createCell(cellCount++);
-        cell.setCellValue(anAttack.getMonthDay());
+        cell.setCellValue(anAttack.getYear());
+
+        cell = row.createCell(cellCount++);
+        cell.setCellValue(anAttack.getMonth());
+
+        cell = row.createCell(cellCount++);
+        cell.setCellValue(anAttack.getDay());
 
         cell = row.createCell(cellCount++);
         cell.setCellValue(anAttack.getType());
@@ -19,7 +25,13 @@ public class ExcelWriter {
         cell.setCellValue(anAttack.getDead());
 
         cell = row.createCell(cellCount++);
+        cell.setCellValue(anAttack.getDeadPerpetrator());
+
+        cell = row.createCell(cellCount++);
         cell.setCellValue(anAttack.getInjured());
+
+        cell = row.createCell(cellCount++);
+        cell.setCellValue(anAttack.getInjuredPerpetrator());
 
         cell = row.createCell(cellCount++);
         cell.setCellValue(anAttack.getLocation());
