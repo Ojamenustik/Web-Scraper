@@ -27,7 +27,7 @@ public class main {
         rowCount++;
         Attack HeaderOfAttacks = new Attack("Year", "Month", "Day", "Type", "Dead",
                 "Dead Perpetrator", "Injured", "Injured Perpetrator",
-                "Location", "Details", "Perpetrator");
+                "Country", "City", "Details", "Perpetrator");
         ExcelWriter.writeAttack(HeaderOfAttacks, excelRow);
 
 
@@ -116,9 +116,10 @@ public class main {
                         final String type = row.select("td:nth-of-type(2)").text();
                         String dead = row.select("td:nth-of-type(3)").text();
                         String injured = row.select("td:nth-of-type(4)").text();
-                        final String location = row.select("td:nth-of-type(5)").text();
+                        String location = row.select("td:nth-of-type(5)").text();
                         final String details = row.select("td:nth-of-type(6)").text();
                         final String perpetrator = row.select("td:nth-of-type(7)").text();
+
                         String deadPerpetrator = "";
                         if(dead.contains("(+")) {
                             deadPerpetrator = dead.split("\\(\\+")[1].split("\\)")[0];
@@ -130,11 +131,22 @@ public class main {
                             injured = injured.split("\\(\\+")[0].trim();
                         }
 
-                        System.out.println(year+ "/"+ month + "/" + day + ":" + type + " " + dead + " " +deadPerpetrator + " " + injured + " " + injuredPerpetrator + " " + location + " " + perpetrator);
+                        String city = "";
+                        String country = "";
 
+
+                        city = location.split(",")[0];
+                        country = location.split(",")[location.split(",").length-1];
+
+                        if(country.trim().isEmpty()){
+                            country = city;
+                        }
+
+                        //System.out.println(year+ "/"+ month + "/" + day + ":" + type + " " + dead + " " +deadPerpetrator + " " + injured + " " + injuredPerpetrator + " " + location + " " + perpetrator);
+                        System.out.println(city + " "+ country);
 
                         excelRow = sheet.createRow(rowCount);
-                        Attack attack = new Attack(year, month ,day, type, dead, deadPerpetrator, injured,injuredPerpetrator, location, details, perpetrator);
+                        Attack attack = new Attack(year, month ,day, type, dead, deadPerpetrator, injured,injuredPerpetrator, country, city, details, perpetrator);
 
                         ExcelWriter.writeAttack(attack, excelRow);
 

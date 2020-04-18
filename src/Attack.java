@@ -24,12 +24,13 @@ public  class Attack {
     private String deadPerpetrator;
     private String injured;
     private String injuredPerpetrator;
-    private String location;
+    private String country;
+    private String city;
     private String details;
     private String perpetrator;
 
 
-    public Attack(String year, String month, String day, String type, String dead, String deadPerpetrator, String injured, String injuredPerpetrator, String location, String details, String perpetrator) {
+    public Attack(String year, String month, String day, String type, String dead, String deadPerpetrator, String injured, String injuredPerpetrator, String country, String city, String details, String perpetrator) {
         this.year = year;
         this.month = month;
         this.day = day;
@@ -38,7 +39,8 @@ public  class Attack {
         this.deadPerpetrator = deadPerpetrator;
         this.injured = injured;
         this.injuredPerpetrator = injuredPerpetrator;
-        this.location = location;
+        this.country= country;
+        this.city = city;
         this.details = details;
         this.perpetrator = perpetrator;
     }
@@ -76,15 +78,7 @@ public  class Attack {
         this.injured = injured;
     }
 
-    public String getLocation() {
-        return location;
-    }
-
-    public void setLocation(String location) {
-        this.location = location;
-    }
-
-    public String getDetails() {
+        public String getDetails() {
         return details;
     }
 
@@ -98,5 +92,21 @@ public  class Attack {
 
     public void setPerpetrator(String perpetrator) {
         this.perpetrator = perpetrator;
+    }
+
+    public String getCountry() {
+        return country;
+    }
+
+    public void setCountry(String country) {
+        this.country = country;
+    }
+
+    public String getCity() {
+        return city;
+    }
+
+    public void setCity(String city) {
+        this.city = city;
     }
 }

@@ -34,7 +34,10 @@ public class ExcelWriter {
         cell.setCellValue(anAttack.getInjuredPerpetrator());
 
         cell = row.createCell(cellCount++);
-        cell.setCellValue(anAttack.getLocation());
+        cell.setCellValue(anAttack.getCountry());
+
+        cell = row.createCell(cellCount++);
+        cell.setCellValue(anAttack.getCity());
 
         cell = row.createCell(cellCount++);
         cell.setCellValue(anAttack.getDetails());
