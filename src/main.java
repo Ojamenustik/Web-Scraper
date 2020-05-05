@@ -1,8 +1,5 @@
 import org.apache.poi.hssf.usermodel.HSSFWorkbook;
-import org.apache.poi.ss.usermodel.CellStyle;
-import org.apache.poi.ss.usermodel.Row;
-import org.apache.poi.ss.usermodel.Sheet;
-import org.apache.poi.ss.usermodel.Workbook;
+import org.apache.poi.ss.usermodel.*;
 import org.apache.poi.xssf.usermodel.XSSFSheet;
 import org.apache.poi.xssf.usermodel.XSSFWorkbook;
 import org.jsoup.Jsoup;
@@ -10,17 +7,14 @@ import org.jsoup.nodes.Document;
 import org.jsoup.nodes.Element;
 import org.jsoup.select.Elements;
 
-import java.io.FileOutputStream;
-import java.io.OutputStream;
+import java.io.*;
 import java.util.*;
-
-import java.io.IOException;
 
 
 public class main {
-    public static void main(String[] args) throws IOException {
+    public static void main(String[] args) throws Exception {
 
-        Workbook workbook = new XSSFWorkbook();
+        XSSFWorkbook workbook = new XSSFWorkbook();
         Sheet sheet = workbook.createSheet("Attacks");
         int rowCount = 0;
         Row excelRow = sheet.createRow(rowCount);
@@ -34,7 +28,7 @@ public class main {
         final String url = "https://en.wikipedia.org/";
         List<String> WebsiteLinks = new ArrayList<String>();
         List<String> MonthsLinks = new ArrayList<String>();
-;
+
         try {
             final Document document = Jsoup.connect(url + "wiki/List_of_terrorist_incidents#1970%E2%80%93present").get();
             Elements bigLists = document.getElementsByClass("div-col columns column-width");
@@ -143,7 +137,7 @@ public class main {
                         }
 
                         //System.out.println(year+ "/"+ month + "/" + day + ":" + type + " " + dead + " " +deadPerpetrator + " " + injured + " " + injuredPerpetrator + " " + location + " " + perpetrator);
-                        System.out.println(city + " "+ country);
+//                        System.out.println(city + " "+ country);
 
                         excelRow = sheet.createRow(rowCount);
                         Attack attack = new Attack(year, month ,day, type, dead, deadPerpetrator, injured,injuredPerpetrator, country, city, details, perpetrator);
@@ -185,7 +179,13 @@ public class main {
 
         try (OutputStream fileOut = new FileOutputStream("Wiki terrorism data.xlsx")) {
             workbook.write(fileOut);
+
         }
+        InputStream fileIn = new FileInputStream("Wiki terrorism data.xlsx");
+       //System.out.println(fileIn.readAllBytes()[0]);
+
+
+        xlstocsv.convertSelectedSheetInXLXSFileToCSV(workbook);
 
     }
 }
