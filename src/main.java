@@ -19,7 +19,7 @@ public class main {
         int rowCount = 0;
         Row excelRow = sheet.createRow(rowCount);
         rowCount++;
-        Attack HeaderOfAttacks = new Attack("Year", "Month", "Day", "Type", "Dead",
+        Attack HeaderOfAttacks = new Attack("ID", "Year", "Month", "Day", "Type", "Dead",
                 "Dead Perpetrator", "Injured", "Injured Perpetrator",
                 "Country", "City", "Perpetrator");
         ExcelWriter.writeAttack(HeaderOfAttacks, excelRow);
@@ -113,6 +113,7 @@ public class main {
                         String location = row.select("td:nth-of-type(5)").text();
                         //final String details = row.select("td:nth-of-type(6)").text();
                         final String perpetrator = row.select("td:nth-of-type(7)").text();
+                        final String id = String.valueOf(rowCount);
 
                         // type of attack splited to different rows for attack
                         type.split(",");
@@ -144,7 +145,7 @@ public class main {
 //                        System.out.println(city + " "+ country);
 
                         excelRow = sheet.createRow(rowCount);
-                        Attack attack = new Attack(year, month ,day, type, dead, deadPerpetrator, injured,injuredPerpetrator, country, city, perpetrator);
+                        Attack attack = new Attack(id, year, month ,day, type, dead, deadPerpetrator, injured,injuredPerpetrator, country, city, perpetrator);
 
                         ExcelWriter.writeAttack(attack, excelRow);
 

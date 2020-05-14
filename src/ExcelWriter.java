@@ -10,6 +10,9 @@ public class ExcelWriter {
         int cellCount = 0;
 
         Cell cell = row.createCell(cellCount++);
+        cell.setCellValue(anAttack.getId());
+
+        cell = row.createCell(cellCount++);
         cell.setCellValue(anAttack.getYear());
 
         cell = row.createCell(cellCount++);
@@ -39,8 +42,8 @@ public class ExcelWriter {
         cell = row.createCell(cellCount++);
         cell.setCellValue(anAttack.getCity());
 
-        cell = row.createCell(cellCount++);
-        cell.setCellValue(anAttack.getDetails());
+        //cell = row.createCell(cellCount++);
+        //cell.setCellValue(anAttack.getDetails());
 
         cell = row.createCell(cellCount++);
         cell.setCellValue(anAttack.getPerpetrator());
