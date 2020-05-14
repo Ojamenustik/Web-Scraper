@@ -21,7 +21,7 @@ public class main {
         rowCount++;
         Attack HeaderOfAttacks = new Attack("Year", "Month", "Day", "Type", "Dead",
                 "Dead Perpetrator", "Injured", "Injured Perpetrator",
-                "Country", "City", "Details", "Perpetrator");
+                "Country", "City", "Perpetrator");
         ExcelWriter.writeAttack(HeaderOfAttacks, excelRow);
 
 
@@ -107,12 +107,16 @@ public class main {
                         continue;
                     } else {
                         final String day = row.select("td:nth-of-type(1)").text();
-                        final String type = row.select("td:nth-of-type(2)").text();
+                        String type = row.select("td:nth-of-type(2)").text();
                         String dead = row.select("td:nth-of-type(3)").text();
                         String injured = row.select("td:nth-of-type(4)").text();
                         String location = row.select("td:nth-of-type(5)").text();
-                        final String details = row.select("td:nth-of-type(6)").text();
+                        //final String details = row.select("td:nth-of-type(6)").text();
                         final String perpetrator = row.select("td:nth-of-type(7)").text();
+
+                        // type of attack splited to different rows for attack
+                        type.split(",");
+
 
                         String deadPerpetrator = "";
                         if(dead.contains("(+")) {
@@ -140,7 +144,7 @@ public class main {
 //                        System.out.println(city + " "+ country);
 
                         excelRow = sheet.createRow(rowCount);
-                        Attack attack = new Attack(year, month ,day, type, dead, deadPerpetrator, injured,injuredPerpetrator, country, city, details, perpetrator);
+                        Attack attack = new Attack(year, month ,day, type, dead, deadPerpetrator, injured,injuredPerpetrator, country, city, perpetrator);
 
                         ExcelWriter.writeAttack(attack, excelRow);
 

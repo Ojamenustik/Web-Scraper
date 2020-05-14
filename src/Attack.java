@@ -30,7 +30,7 @@ public  class Attack {
     private String perpetrator;
 
 
-    public Attack(String year, String month, String day, String type, String dead, String deadPerpetrator, String injured, String injuredPerpetrator, String country, String city, String details, String perpetrator) {
+    public Attack(String year, String month, String day, String type, String dead, String deadPerpetrator, String injured, String injuredPerpetrator, String country, String city, String perpetrator) {
         this.year = year;
         this.month = month;
         this.day = day;
@@ -41,7 +41,7 @@ public  class Attack {
         this.injuredPerpetrator = injuredPerpetrator;
         this.country= country;
         this.city = city;
-        this.details = details;
+        //this.details = details;
         this.perpetrator = perpetrator;
     }
 
@@ -78,7 +78,7 @@ public  class Attack {
         this.injured = injured;
     }
 
-        public String getDetails() {
+    public String getDetails() {
         return details;
     }
 
