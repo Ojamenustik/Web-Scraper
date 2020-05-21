@@ -113,19 +113,15 @@ public class main {
                         String location = row.select("td:nth-of-type(5)").text();
                         //final String details = row.select("td:nth-of-type(6)").text();
                         final String perpetrator = row.select("td:nth-of-type(7)").text();
-                        final String id = String.valueOf(rowCount);
-
-                        // type of attack splited to different rows for attack
-                        type.split(",");
-
 
                         String deadPerpetrator = "";
-                        if(dead.contains("(+")) {
+                        if (dead.contains("(+")) {
                             deadPerpetrator = dead.split("\\(\\+")[1].split("\\)")[0];
                             dead = dead.split("\\(\\+")[0].trim();
                         }
+
                         String injuredPerpetrator = "";
-                        if(injured.contains("(+")) {
+                        if (injured.contains("(+")) {
                             injuredPerpetrator = injured.split("\\(\\+")[1].split("\\)")[0];
                             injured = injured.split("\\(\\+")[0].trim();
                         }
@@ -135,23 +131,30 @@ public class main {
 
 
                         city = location.split(",")[0];
-                        country = location.split(",")[location.split(",").length-1];
+                        country = location.split(",")[location.split(",").length - 1];
 
-                        if(country.trim().isEmpty()){
+                        if (country.trim().isEmpty()) {
                             country = city;
                         }
 
-                        //System.out.println(year+ "/"+ month + "/" + day + ":" + type + " " + dead + " " +deadPerpetrator + " " + injured + " " + injuredPerpetrator + " " + location + " " + perpetrator);
+                        // type of attack splited to different rows for specific attack
+                        String[] attackTypes = type.split(",");
+
+                        for(String attackType : attackTypes) {
+                            final String id = String.valueOf(rowCount);
+
+                            attackType = attackType.trim().toLowerCase();
+                            //System.out.println(year+ "/"+ month + "/" + day + ":" + type + " " + dead + " " +deadPerpetrator + " " + injured + " " + injuredPerpetrator + " " + location + " " + perpetrator);
 //                        System.out.println(city + " "+ country);
 
-                        excelRow = sheet.createRow(rowCount);
-                        Attack attack = new Attack(id, year, month ,day, type, dead, deadPerpetrator, injured,injuredPerpetrator, country, city, perpetrator);
+                            excelRow = sheet.createRow(rowCount);
+                            Attack attack = new Attack(id, year, month, day, attackType, dead, deadPerpetrator, injured, injuredPerpetrator, country, city, perpetrator);
 
-                        ExcelWriter.writeAttack(attack, excelRow);
+                            ExcelWriter.writeAttack(attack, excelRow);
 
-                       rowCount++;
+                            rowCount++;
 
-
+                        }
                     }
                 }
 

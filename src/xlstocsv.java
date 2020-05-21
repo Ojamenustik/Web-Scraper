@@ -23,6 +23,7 @@ public class xlstocsv {
         List<String[]> data = new ArrayList<String[]>();
 
         Iterator<Row> rowIterator = selSheet.iterator();
+
         while (rowIterator.hasNext()) {
 
             Row row = rowIterator.next();
@@ -48,7 +49,9 @@ public class xlstocsv {
                 }
             }
             String rowData = sb.toString();
-            writer.writeNext(rowData.split(","));
+
+            writer.writeNext(rowData.split(","),false);
+
            //data = data.add(rowData.split(","));
         }
 

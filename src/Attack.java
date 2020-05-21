@@ -27,7 +27,7 @@ public  class Attack {
     private String injuredPerpetrator;
     private String country;
     private String city;
-    private String details;
+    //private String details;
     private String perpetrator;
 
 
@@ -80,13 +80,13 @@ public  class Attack {
         this.injured = injured;
     }
 
-    public String getDetails() {
-        return details;
-    }
-
-    public void setDetails(String details) {
-        this.details = details;
-    }
+//    public String getDetails() {
+//        return details;
+//    }
+//
+//    public void setDetails(String details) {
+//        this.details = details;
+//    }
 
     public String getPerpetrator() {
         return perpetrator;
