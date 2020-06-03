@@ -114,9 +114,9 @@ ID,Year,Month,Day,Type,Dead,Dead Perpetrator,Injured,Injured Perpetrator,Country
 113,2018,1,20,grenade attack,0,,0,, India,Shopian district,Lashkar-e-Taiba (suspected)
 114,2018,1,20,bombing,0,,1,, India,Dantewada district,CPI
 115,2018,1,20,shooting,18,,0,, Afghanistan,Balkh Province,Taliban
-116,2018,1,20-21,shooting,40,6,22,, Afghanistan,Kabul,Taliban and Haqqani Network
-117,2018,1,20-21,arson,40,6,22,, Afghanistan,Kabul,Taliban and Haqqani Network
-118,2018,1,20-21,hostage taking,40,6,22,, Afghanistan,Kabul,Taliban and Haqqani Network
+116,2018,1,20,shooting,40,6,22,, Afghanistan,Kabul,Taliban and Haqqani Network
+117,2018,1,20,arson,40,6,22,, Afghanistan,Kabul,Taliban and Haqqani Network
+118,2018,1,20,hostage taking,40,6,22,, Afghanistan,Kabul,Taliban and Haqqani Network
 119,2018,1,21,shooting,6,1,0,, Colombia,Yarumal,ELN
 120,2018,1,21,bombing,12,,1,, Afghanistan,Gulran District,Taliban
 121,2018,1,21,bombing,4,,3,, Afghanistan,Nahri Saraj District,Taliban
@@ -204,8 +204,8 @@ ID,Year,Month,Day,Type,Dead,Dead Perpetrator,Injured,Injured Perpetrator,Country
 203,2018,2,3,bombing,0,,0,, Colombia,Guaviare Department,FARC dissidents
 204,2018,2,3,suicide bombing,11,1,13,, Pakistan,Kabal Tehsil,Tehrik-i-Taliban Pakistan
 205,2018,2,3,shooting,1,,6,, Afghanistan,Bala Buluk District,Taliban
-206,2018,2,3-4,shooting,5,,0,, Mali,Talataye,Islamic State (suspected)
-207,2018,2,3-4,hostage taking,5,,0,, Mali,Talataye,Islamic State (suspected)
+206,2018,2,3,shooting,5,,0,, Mali,Talataye,Islamic State (suspected)
+207,2018,2,3,hostage taking,5,,0,, Mali,Talataye,Islamic State (suspected)
 208,2018,2,4,bombing,3,,6,, Egypt,North Sinai Governorate,Islamic State (suspected)
 209,2018,2,4,shooting,3,,7,, Nigeria,Borno State,Boko Haram
 210,2018,2,4,arson,3,,7,, Nigeria,Borno State,Boko Haram
@@ -269,9 +269,9 @@ ID,Year,Month,Day,Type,Dead,Dead Perpetrator,Injured,Injured Perpetrator,Country
 268,2018,2,10,suicide car bombing,0,1,4,, Libya,Sirte District,Islamic State
 269,2018,2,10,car bombing,7,,30,, Syria,Idlib,Islamic State (suspected)
 270,2018,2,10,shooting,0,,3,, Somalia,Afgooye,Al-Shabaab
-271,2018,2,10-11,shooting,7,3,11,, India,Jammu,Jaish-e-Mohammed
-272,2018,2,10-11,grenade attack,7,3,11,, India,Jammu,Jaish-e-Mohammed
-273,2018,2,10-13,bombings,12,,50,, Bolivia,Oruro,Unknown
+271,2018,2,10,shooting,7,3,11,, India,Jammu,Jaish-e-Mohammed
+272,2018,2,10,grenade attack,7,3,11,, India,Jammu,Jaish-e-Mohammed
+273,2018,2,10,bombings,12,,50,, Bolivia,Oruro,Unknown
 274,2018,2,11,bombing,1,,0,, India,Bijapur district,CPI
 275,2018,2,11,shooting,0,,0,, India,Shopian district,Jaish-e-Mohammed (suspected)
 276,2018,2,11,stabbing,0,,4,1, Indonesia,Yogyakarta,Islamist
@@ -286,7 +286,7 @@ ID,Year,Month,Day,Type,Dead,Dead Perpetrator,Injured,Injured Perpetrator,Country
 285,2018,2,12,shooting,1,,0,, India,Beerwah,Jaish-e-Mohammed (suspected)
 286,2018,2,12,shooting,1,,0,, Indonesia,Puncak Jaya Regency,Free Papua Movement
 287,2018,2,12,execution,2,,0,, Somalia,Lower Shebelle,Al-Shabaab
-288,2018,2,12-13,shooting,1,2,1,, India,Karan Nagar,Lashkar-e-Taiba
+288,2018,2,12,shooting,1,2,1,, India,Karan Nagar,Lashkar-e-Taiba
 289,2018,2,13,shooting,0,,0,, India,Jammu,Jaish-e-Mohammed (suspected)
 290,2018,2,13,shooting,1,,3,, Colombia,Arauca,ELN
 291,2018,2,13,shooting,1,,0,, United Kingdom,Belfast,Arm na Poblachta
@@ -355,7 +355,7 @@ ID,Year,Month,Day,Type,Dead,Dead Perpetrator,Injured,Injured Perpetrator,Country
 354,2018,2,23,bombing,0,,3,, Pakistan,Peshawar,Tehrik-i-Taliban Pakistan
 355,2018,2,23,suicide car bombings,45,5,36,, Somalia,Mogadishu,Al-Shabaab
 356,2018,2,23,shooting,45,5,36,, Somalia,Mogadishu,Al-Shabaab
-357,2018,2,23-24,shooting,25,2,0,, Afghanistan,Bala Buluk District,Taliban
+357,2018,2,23,shooting,25,2,0,, Afghanistan,Bala Buluk District,Taliban
 358,2018,2,24,suicide car bombing,1,1,16,, Afghanistan,Lashkargah,Taliban
 359,2018,2,24,suicide car bombing,2,1,7,, Afghanistan,Nad Ali District,Taliban
 360,2018,2,24,suicide bombing,3,1,6,, Afghanistan,Kabul,Islamic State
@@ -432,9 +432,9 @@ ID,Year,Month,Day,Type,Dead,Dead Perpetrator,Injured,Injured Perpetrator,Country
 431,2018,3,5,shooting,1,,0,, India,Noney district,National Socialist Council of Nagaland
 432,2018,3,5,suicide bombing,3,1,18,, Nigeria,Maiduguri,Boko Haram
 433,2018,3,5,arsons,0,,0,, Greece,Athens and Thessaloniki,Anarchist
-434,2018,3,5-6,shootings,20,,15,, Democratic Republic of Congo,Beni Territory,Allied Democratic Forces
-435,2018,3,5-6,kidnappings,20,,15,, Democratic Republic of Congo,Beni Territory,Allied Democratic Forces
-436,2018,3,5-6,arson,20,,15,, Democratic Republic of Congo,Beni Territory,Allied Democratic Forces
+434,2018,3,5,shootings,20,,15,, Democratic Republic of Congo,Beni Territory,Allied Democratic Forces
+435,2018,3,5,kidnappings,20,,15,, Democratic Republic of Congo,Beni Territory,Allied Democratic Forces
+436,2018,3,5,arson,20,,15,, Democratic Republic of Congo,Beni Territory,Allied Democratic Forces
 437,2018,3,6,bombing,2,,3,, Afghanistan,Bihsud District,Islamic State (suspected)
 438,2018,3,6,shooting,0,,1,, Philippines,Santa Cruz,New People's Army
 439,2018,3,6,bombing,1,,2,, Lebanon,Arsal,Tahrir al-Sham (suspected)
@@ -496,7 +496,7 @@ ID,Year,Month,Day,Type,Dead,Dead Perpetrator,Injured,Injured Perpetrator,Country
 495,2018,3,15,arson,1,,0,, Burkina Faso,Est Region,Al-Qaeda in the Islamic Maghreb (suspected)
 496,2018,3,15,shooting,7,,7,, Iraq,Al Anbar Governorate,Islamic State
 497,2018,3,15,grenade attack,3,,2,, Somalia,Bosaso,Al-Shabaab
-498,2018,3,15-16,shooting,0,3,2,, India,Pulwama district,Al-Qaeda
+498,2018,3,15,shooting,0,3,2,, India,Pulwama district,Al-Qaeda
 499,2018,3,16,vehicular attack,2,,3,1, West Bank,Mevo Dothan,Palestinian nationalist
 500,2018,3,16,shooting,4,,4,, Iraq,Al-Qa'im District,Islamic State
 501,2018,3,17,bombing,0,,3,, Ecuador,Eloy Alfaro Canton,FARC dissidents
@@ -530,8 +530,8 @@ ID,Year,Month,Day,Type,Dead,Dead Perpetrator,Injured,Injured Perpetrator,Country
 529,2018,3,20,shooting,6,,15,, Iraq,Kirkuk Governorate,Islamic State
 530,2018,3,20,shooting,0,1,1,, Russia,Grozny,Islamic State
 531,2018,3,20,rocket attack,44,,35,, Syria,Damascus,Jaysh al-Islam (suspected)
-532,2018,3,2-20,bombings,2,1,6,, United States,Austin,Mark Anthony Conditt
-533,2018,3,20-21,shooting,5,5,1,, India,Kupwara district,Lashkar-e-Taiba
+532,2018,3,2,bombings,2,1,6,, United States,Austin,Mark Anthony Conditt
+533,2018,3,20,shooting,5,5,1,, India,Kupwara district,Lashkar-e-Taiba
 534,2018,3,21,suicide bombing,33,1,65,, Afghanistan,Kabul,Islamic State
 535,2018,3,22,ambush,9,,0,, Iraq,Al Anbar Governorate,Islamic State
 536,2018,3,22,kidnapping,0,,4,, Iraq,Kirkuk Governorate,Islamic State
@@ -621,7 +621,7 @@ ID,Year,Month,Day,Type,Dead,Dead Perpetrator,Injured,Injured Perpetrator,Country
 620,2018,4,3,shooting,2,,5,, Afghanistan,Khas Urozgan District,Taliban
 621,2018,4,3,shooting,1,2,2,, Indonesia,Mimika Regency,OPM
 622,2018,4,3,shooting,1,22,11,, Central African Republic,Ouaka,Anti-balaka
-623,2018,4,3-4,bombing shooting,1,,7,, Turkey,Kulp,PKK
+623,2018,4,3,bombing shooting,1,,7,, Turkey,Kulp,PKK
 624,2018,4,4,shooting,1,,0,, Thailand,Su-ngai Padi District,Barisan Revolusi Nasional (suspected)
 625,2018,4,4,bombings,0,,6,, Afghanistan,Kabul,Islamic State
 626,2018,4,4,kidnapping,1,,1,, India,Bandipora district,Lashkar-e-Taiba
@@ -750,7 +750,7 @@ ID,Year,Month,Day,Type,Dead,Dead Perpetrator,Injured,Injured Perpetrator,Country
 749,2018,4,26,suicide bombings,4,3,11,, Nigeria,Maiduguri,Boko Haram
 750,2018,4,26,shooting,4,3,11,, Nigeria,Maiduguri,Boko Haram
 751,2018,4,26,bombings,4,3,11,, Nigeria,Maiduguri,Boko Haram
-752,2018,4,26-27,shootings,47,,2,, Mali,Ménaka Region,Islamic State
+752,2018,4,26,shootings,47,,2,, Mali,Ménaka Region,Islamic State
 753,2018,4,27,bombing,2,,3,, Yemen,Al Madaribah Wa Al Arah District,Al-Qaeda in the Arabian Peninsula (suspected)
 754,2018,4,27,shooting,1,,0,, Cameroon,Mayo-Sava,Boko Haram
 755,2018,4,28,suicide car bombing,6,1,5,, Afghanistan,Nad Ali District,Taliban
@@ -850,9 +850,9 @@ ID,Year,Month,Day,Type,Dead,Dead Perpetrator,Injured,Injured Perpetrator,Country
 849,2018,5,8,shooting,1,,0,, Peru,La Mar Province,Sendero Luminoso
 850,2018,5,8,suicide car bombings,4,2,6,, Libya,Sirte District,Islamic State
 851,2018,5,8,shooting,20,,+8,, Venezuela,Guasipati,ELN
-852,2018,5,8-10,shooting,6,2,4,, Indonesia,Depok,Islamic State
-853,2018,5,8-10,stabbings,6,2,4,, Indonesia,Depok,Islamic State
-854,2018,5,8-10,hostage taking,6,2,4,, Indonesia,Depok,Islamic State
+852,2018,5,8,shooting,6,2,4,, Indonesia,Depok,Islamic State
+853,2018,5,8,stabbings,6,2,4,, Indonesia,Depok,Islamic State
+854,2018,5,8,hostage taking,6,2,4,, Indonesia,Depok,Islamic State
 855,2018,5,9,shooting,0,,0,, Colombia,Teorama,EPL or ELN
 856,2018,5,9,suicide bombings,10,8,23,, Afghanistan,Kabul,Islamic State and Taliban
 857,2018,5,9,shootings,10,8,23,, Afghanistan,Kabul,Islamic State and Taliban
@@ -889,10 +889,10 @@ ID,Year,Month,Day,Type,Dead,Dead Perpetrator,Injured,Injured Perpetrator,Country
 888,2018,5,13,suicide car bombing,15,8,42,, Afghanistan,Jalalabad,Islamic State
 889,2018,5,13,suicide bombing,15,8,42,, Afghanistan,Jalalabad,Islamic State
 890,2018,5,13,shooting,15,8,42,, Afghanistan,Jalalabad,Islamic State
-891,2018,5,13-14,shooting,3,11,17,, Philippines,Patikul,Abu Sayyaf
-892,2018,5,13-14,suicide bombings,15,13,57,, Indonesia,Surabaya and Sidoarjo,Islamic State
-893,2018,5,13-14,suicide car bombing,15,13,57,, Indonesia,Surabaya and Sidoarjo,Islamic State
-894,2018,5,13-14,bombing,15,13,57,, Indonesia,Surabaya and Sidoarjo,Islamic State
+891,2018,5,13,shooting,3,11,17,, Philippines,Patikul,Abu Sayyaf
+892,2018,5,13,suicide bombings,15,13,57,, Indonesia,Surabaya and Sidoarjo,Islamic State
+893,2018,5,13,suicide car bombing,15,13,57,, Indonesia,Surabaya and Sidoarjo,Islamic State
+894,2018,5,13,bombing,15,13,57,, Indonesia,Surabaya and Sidoarjo,Islamic State
 895,2018,5,14,shooting,0,,0,, India,Dantewada district,CPI
 896,2018,5,14,arson,0,,0,, India,Dantewada district,CPI
 897,2018,5,14,shooting,5,2,5,, Afghanistan,Khash Rod District,Taliban
@@ -938,7 +938,7 @@ ID,Year,Month,Day,Type,Dead,Dead Perpetrator,Injured,Injured Perpetrator,Country
 937,2018,5,21,kidnapping,6,,5,, Afghanistan,Zurmat District,Taliban
 938,2018,5,21,bombing,1,,3,, Iraq,Al-Qa'im District,Islamic State
 939,2018,5,21,car bombing,1,,0,, Iraq,Al-Tarmia District,Islamic State (suspected)
-940,2018,5,21-22,shootings,20,,12,, Afghanistan,Dih Yak District and Jaghatū District,Taliban
+940,2018,5,21,shootings,20,,12,, Afghanistan,Dih Yak District and Jaghatū District,Taliban
 941,2018,5,22,car bombing,21,,41,, Afghanistan,Kandahar,Taliban (suspected)
 942,2018,5,22,bombing,0,,0,, México,Oaxaca City,Brigada de Acción Informal Bruno Filippi
 943,2018,5,22,shooting,2,,7,, Afghanistan,Kushki Kuhna District,Taliban
@@ -987,10 +987,10 @@ ID,Year,Month,Day,Type,Dead,Dead Perpetrator,Injured,Injured Perpetrator,Country
 986,2018,5,28,melee attack,0,,+4,, Nigeria,Jalingo,Fulani herdsmen
 987,2018,5,28,bombing,0,,3,, India,Shopian district,Jaish-e-Mohammed
 988,2018,5,28,shooting,1,,0,, Nigeria,Askira/Uba,Boko Haram
-989,2018,5,28-29,melee attack,4,1,4,, Belgium,Marche-en-Famenne and Liège,Islamic State
-990,2018,5,28-29,stabbing,4,1,4,, Belgium,Marche-en-Famenne and Liège,Islamic State
-991,2018,5,28-29,shooting,4,1,4,, Belgium,Marche-en-Famenne and Liège,Islamic State
-992,2018,5,28-29,hostage taking,4,1,4,, Belgium,Marche-en-Famenne and Liège,Islamic State
+989,2018,5,28,melee attack,4,1,4,, Belgium,Marche-en-Famenne and Liège,Islamic State
+990,2018,5,28,stabbing,4,1,4,, Belgium,Marche-en-Famenne and Liège,Islamic State
+991,2018,5,28,shooting,4,1,4,, Belgium,Marche-en-Famenne and Liège,Islamic State
+992,2018,5,28,hostage taking,4,1,4,, Belgium,Marche-en-Famenne and Liège,Islamic State
 993,2018,5,29,shooting,1,,0,, India,Pulwama district,Hizbul Mujahideen (suspected)
 994,2018,5,29,rocket attack,0,,0,, Israel,Eshkol Regional Council,Hamas
 995,2018,5,29,bombing,0,,1,, Pakistan,Bajaur Agency,Tehrik-i-Taliban Pakistan
@@ -1076,7 +1076,7 @@ ID,Year,Month,Day,Type,Dead,Dead Perpetrator,Injured,Injured Perpetrator,Country
 1075,2018,6,8,mortar attack,1,,5,, Somalia,Jamame District,Al-Shabaab
 1076,2018,6,8,shooting,30,10,0,, Syria,Abu Kamal,Islamic State
 1077,2018,6,8,suicide bombings,30,10,0,, Syria,Abu Kamal,Islamic State
-1078,2018,6,8-9,shootings,65,,17,, Afghanistan,Shah Wali Kot District,Taliban
+1078,2018,6,8,shootings,65,,17,, Afghanistan,Shah Wali Kot District,Taliban
 1079,2018,6,9,arson,0,,0,, Chile,Curacautín,Resistencia Mapuche Malleco
 1080,2018,6,9,bombing,2,,20,, Iraq,Al Khalis,Islamic State
 1081,2018,6,9,shooting,3,13,3,, Mali,Boni and Dallah,Al-Qaeda in the Islamic Maghreb (suspected)
@@ -1135,7 +1135,7 @@ ID,Year,Month,Day,Type,Dead,Dead Perpetrator,Injured,Injured Perpetrator,Country
 1134,2018,6,16,mortar attack,1,,1,, Philippines,General Salipada K. Pendatun,Bangsamoro Islamic Freedom Fighters
 1135,2018,6,16,shooting,0,1,1,, Burkina Faso,Comin-Yanga Department,Al-Qaeda in the Islamic Maghreb (suspected)
 1136,2018,6,16,shooting,1,,0,, Burkina Faso,Pama Department,Al-Qaeda in the Islamic Maghreb (suspected)
-1137,2018,6,16-17,kidnapping,1,,11,, Uppi Central African Republic,Obo,Lord's Resistance Army
+1137,2018,6,16,kidnapping,1,,11,, Uppi Central African Republic,Obo,Lord's Resistance Army
 1138,2018,6,17,bombing,0,,0,, Philippines,Arakan,Bangsamoro Islamic Freedom Fighters
 1139,2018,6,17,attempted bombing,0,,0,, Philippines,Arakan,Bangsamoro Islamic Freedom Fighters
 1140,2018,6,17,suicide bombing,25,1,50,, Afghanistan,Jalalabad,Islamic State
@@ -1185,7 +1185,7 @@ ID,Year,Month,Day,Type,Dead,Dead Perpetrator,Injured,Injured Perpetrator,Country
 1184,2018,6,22,stabbing,5,,0,,Mozambique,Palma District,Ansar al-Sunna
 1185,2018,6,22,shooting,5,,0,,Mozambique,Palma District,Ansar al-Sunna
 1186,2018,6,22,arson,5,,0,,Mozambique,Palma District,Ansar al-Sunna
-1187,2018,6,22-23,execution,3,,0,, Cameroon,Far North Region,Boko Haram
+1187,2018,6,22,execution,3,,0,, Cameroon,Far North Region,Boko Haram
 1188,2018,6,23,arson,0,,0,, Argentina,Lago Puelo,Resistencia Ancestral Mapuche
 1189,2018,6,23,car bombing,0,,2,, Libya,Derna,Derna Protection Force
 1190,2018,6,23,arson,0,,0,, Colombia,Toledo,FARC´S 36th Front
@@ -1569,7 +1569,7 @@ ID,Year,Month,Day,Type,Dead,Dead Perpetrator,Injured,Injured Perpetrator,Country
 1568,2018,8,10,bombing,1,,3+,, Colombia,Puerto Nariño,ELN
 1569,2018,8,10,shooting,2,,3,, Philippines,Jones,New People's Army
 1570,2018,8,10,assassination,1,,0,, Philippines,Isabela,New People's Army
-1571,2018,8,10-11,bombings,5,4,20,, Jordan,Amman,Islamic State
+1571,2018,8,10,bombings,5,4,20,, Jordan,Amman,Islamic State
 1572,2018,8,11,shooting,0,,1,, Colombia,El Carmen,EPL (suspected)
 1573,2018,8,11,shooting,3,1,2,1, Gilgit-Baltistan,Kargah,Unknown
 1574,2018,8,11,shooting,5,,1,, Iraq,Baiji,Islamic State
@@ -1682,7 +1682,7 @@ ID,Year,Month,Day,Type,Dead,Dead Perpetrator,Injured,Injured Perpetrator,Country
 1681,2018,9,1,car bombing,2,,25,, Syria,Azaz,Militants (suspected)
 1682,2018,9,1,bombing,1,,3,, India,Sukma district,CPI
 1683,2018,9,1,shooting,30,,Unknown,, Nigeria,Borno State,Boko Haram
-1684,2018,9,1-2,kidnapping,5,,7 Kidnapped,, Cameroon,Ndop,Ambazonia Defence Forces (suspected)
+1684,2018,9,1,kidnapping,5,,7 Kidnapped,, Cameroon,Ndop,Ambazonia Defence Forces (suspected)
 1685,2018,9,2,rocket attack,4,,7,, Libya,Tripoli,Militants (suspected)
 1686,2018,9,2,shooting,14,,12,, Nigeria,Jos South,Fulani herdsmen militants
 1687,2018,9,2,assassination,1,,1,, Colombia,Ocaña,ELN (suspected)
@@ -1704,8 +1704,8 @@ ID,Year,Month,Day,Type,Dead,Dead Perpetrator,Injured,Injured Perpetrator,Country
 1703,2018,9,4,grenade attack,0,,4,, India,Baramulla district,Lashkar-e-Taiba
 1704,2018,9,5,shooting,2,,0,, Pakistan,Peshawar,Tehrik-i-Taliban Pakistan (suspected)
 1705,2018,9,5,assassination,2,,0,, Pakistan,Peshawar,Tehrik-i-Taliban Pakistan (suspected)
-1706,2018,9,4-5,shootings,42,,?,, Central African Republic,Bria,Séléka (suspected)
-1707,2018,9,4-5,stabbings,42,,?,, Central African Republic,Bria,Séléka (suspected)
+1706,2018,9,4,shootings,42,,?,, Central African Republic,Bria,Séléka (suspected)
+1707,2018,9,4,stabbings,42,,?,, Central African Republic,Bria,Séléka (suspected)
 1708,2018,9,5,suicide car bombing,26,2,91,, Afghanistan,Kabul,Islamic State
 1709,2018,9,5,suicide bombing,26,2,91,, Afghanistan,Kabul,Islamic State
 1710,2018,9,5,bombing,2,,0,, Afghanistan,Muqur,Taliban
@@ -1716,7 +1716,7 @@ ID,Year,Month,Day,Type,Dead,Dead Perpetrator,Injured,Injured Perpetrator,Country
 1715,2018,9,6,kidnapping,2,,25 (abducted),, Nigeria,Borno State,Boko Haram
 1716,2018,9,6,shooting,8,,0,, Afghanistan,Takhar Province,Taliban
 1717,2018,9,6,arson,8,,0,, Afghanistan,Takhar Province,Taliban
-1718,2018,9,5-6,shooting,6,,60,,Wardigleey district and Galmudug,Wardigleey district and Galmudug,Al-Shabaab
+1718,2018,9,5,shooting,6,,60,,Wardigleey district and Galmudug,Wardigleey district and Galmudug,Al-Shabaab
 1719,2018,9,6,shooting,11,10,6,14, Afghanistan,Badghis Province,Taliban
 1720,2018,9,6,shooting,7,,0,, Nigeria,Barkin Ladi,Fulani herdsmen militants
 1721,2018,9,6,stabbing,0,,1,1, Brazil,Juiz de Fora,Left-wing extremist
@@ -1737,7 +1737,7 @@ ID,Year,Month,Day,Type,Dead,Dead Perpetrator,Injured,Injured Perpetrator,Country
 1736,2018,9,8,shooting,9,10,6,, Afghanistan,Herat Province,Taliban
 1737,2018,9,8,ambush,9,10,6,, Afghanistan,Herat Province,Taliban
 1738,2018,9,8,shooting,2,,0,, Cameroon,Bamenda,Ambaland Forces (suspected)
-1739,2018,9,8-9,shooting,8,,0,, Nigeria,Borno State,Boko Haram
+1739,2018,9,8,shooting,8,,0,, Nigeria,Borno State,Boko Haram
 1740,2018,9,9,suicide bombing,7,1,25,, Afghanistan,Kabul,Islamic State
 1741,2018,9,9,attack,0,,3 Kidnapped,, Cameroon,Oku,Ambazonia Defence Forces
 1742,2018,9,9,arson,0,,0,, Colombia,Corinto,FARC dissidents
@@ -1795,8 +1795,8 @@ ID,Year,Month,Day,Type,Dead,Dead Perpetrator,Injured,Injured Perpetrator,Country
 1794,2018,9,16,shooting,0,Unknown,0,Unknown, Nigeria,Near Bama,Boko Haram
 1795,2018,9,16,shooting,6,,0,, Afghanistan,Surkh-Rōd District,Islamic State
 1796,2018,9,16,arson,6,,0,, Afghanistan,Surkh-Rōd District,Islamic State
-1797,2018,9,16-17,ambush,27,22,Several,16,Afghanistan,Afghanistan,Taliban
-1798,2018,9,16-17,shooting,27,22,Several,16,Afghanistan,Afghanistan,Taliban
+1797,2018,9,16,ambush,27,22,Several,16,Afghanistan,Afghanistan,Taliban
+1798,2018,9,16,shooting,27,22,Several,16,Afghanistan,Afghanistan,Taliban
 1799,2018,9,17,kidnapping,0,,3,, Niger,Tillaberi,Al-Qaeda in the Islamic Maghreb (suspected)
 1800,2018,9,17,mortar attack,8,,3,, Afghanistan,Paktika Province,Taliban
 1801,2018,9,17,shooting,1,,0,, India,Kulgam district,Hizbul Mujahideen (suspected)
@@ -1878,7 +1878,7 @@ ID,Year,Month,Day,Type,Dead,Dead Perpetrator,Injured,Injured Perpetrator,Country
 1877,2018,9,28,grenade attack,9,,35,, South Sudan,Yambio,Unknown
 1878,2018,9,28,shooting,0,,1,, Northern Ireland,Belfast,Arm na Poblachta
 1879,2018,9,28,bombing,5,,9,, Mali,Bamako,Al-Qaeda in the Islamic Maghreb (suspected)
-1880,2018,9,28-29,shootings,22,,Unknown,, Mali,Amalaoulaou,Movement for the Salvation of Azawad
+1880,2018,9,28,shootings,22,,Unknown,, Mali,Amalaoulaou,Movement for the Salvation of Azawad
 1881,2018,9,29,shooting,6,17,Several,, Chad,Lake Chad,Boko Haram
 1882,2018,9,29,rocket attack,3,,0,, Mali,Kidal,Al-Qaeda in the Islamic Maghreb (suspected)
 1883,2018,9,29,mortar attack,3,,0,, Mali,Kidal,Al-Qaeda in the Islamic Maghreb (suspected)
@@ -1963,9 +1963,9 @@ ID,Year,Month,Day,Type,Dead,Dead Perpetrator,Injured,Injured Perpetrator,Country
 1962,2018,10,9,bombing,2,,0,, Kenya,Mandera,Al-Shabaab
 1963,2018,10,9,grenade attack,1,,0,, Yemen,Dhale,Al-Qaeda in the Arabian Peninsula (suspected)
 1964,2018,10,10,bombing,1,,4,, Iraq,Tikrit,Islamic State (suspected)
-1965,2018,10,10–13,shooting,37,58,100+,, Syria,Deir ez-Zor Governorate,Islamic State
-1966,2018,10,10–13,kidnappings,37,58,100+,, Syria,Deir ez-Zor Governorate,Islamic State
-1967,2018,10,10–13,bombings,37,58,100+,, Syria,Deir ez-Zor Governorate,Islamic State
+1965,2018,10,10,shooting,37,58,100+,, Syria,Deir ez-Zor Governorate,Islamic State
+1966,2018,10,10,kidnappings,37,58,100+,, Syria,Deir ez-Zor Governorate,Islamic State
+1967,2018,10,10,bombings,37,58,100+,, Syria,Deir ez-Zor Governorate,Islamic State
 1968,2018,10,10,mortar attack,1,,10,, Syria,Latakia Governorate,Syrian Rebels
 1969,2018,10,10,shooting,8,48,11,, Chad,Lake Chad,Boko Haram
 1970,2018,10,10,shooting,10,,0,, Iraq,Al Anbar Governorate,Islamic State
@@ -2017,7 +2017,7 @@ ID,Year,Month,Day,Type,Dead,Dead Perpetrator,Injured,Injured Perpetrator,Country
 2016,2018,10,15,shooting,7,,5,, Afghanistan,Samangan Province,Taliban
 2017,2018,10,15,bombing,0,,0,, India,Giridih district,CPI
 2018,2018,10,15,arson,0,,0,, France,Nantes,Un enragé contre l’Etat et ses larbins
-2019,2018,10,15-16,shooting,16,,17,, Afghanistan,Daykundi Province and Farah Province,Taliban
+2019,2018,10,15,shooting,16,,17,, Afghanistan,Daykundi Province and Farah Province,Taliban
 2020,2018,10,16,shooting,2,,3,, Colombia,La Macarena,FARC dissidents
 2021,2018,10,16,rocket attack,0,,0,, Israel,Beersheba,Izz ad-Din al-Qassam Brigades (suspected)
 2022,2018,10,16,bombing,0,,3,, India,Rajnandgaon district,CPI
@@ -2083,8 +2083,8 @@ ID,Year,Month,Day,Type,Dead,Dead Perpetrator,Injured,Injured Perpetrator,Country
 2082,2018,10,20,shooting,2,,0,, Democratic Republic of The Congo,Butembo,Mai-Mai
 2083,2018,10,20,shooting,1,,2,, Mali,Gao Region,Al-Qaeda in the Islamic Maghreb (suspected)
 2084,2018,10,20,shooting,3,6,1,, Egypt,Arish,Islamic State (suspected)
-2085,2018,10,20-21,shooting,15,,12 (kidnapped),, Democratic Republic of the Congo,Beni,Allied Democratic Forces
-2086,2018,10,20-21,kidnapping,15,,12 (kidnapped),, Democratic Republic of the Congo,Beni,Allied Democratic Forces
+2085,2018,10,20,shooting,15,,12 (kidnapped),, Democratic Republic of the Congo,Beni,Allied Democratic Forces
+2086,2018,10,20,kidnapping,15,,12 (kidnapped),, Democratic Republic of the Congo,Beni,Allied Democratic Forces
 2087,2018,10,21,bombing,12,,0,, Afghanistan,Achin District,Islamic State
 2088,2018,10,21,bombing,1,,0,, Iraq,Abu Ghraib,Islamic State (suspected)
 2089,2018,10,21,grenade attack,1,,0,, India,Tral,Jaish-e-Mohammed (suspected)
@@ -2105,7 +2105,7 @@ ID,Year,Month,Day,Type,Dead,Dead Perpetrator,Injured,Injured Perpetrator,Country
 2104,2018,10,22,shooting,1,1,2,, Afghanistan,Herat Province,Taliban or Islamic State
 2105,2018,10,22,shooting,1,,1,, Philippines,Bato Town,New People's Army
 2106,2018,10,22,bombing,1,,0,, Syria,Maksar al-Hisan,Islamic State
-2107,2018,10,22–1 (November),attempted bombings,0,,0,, Georgia),Various cities across the United States (Katonah,Cesar Alteri Sayoc Jr.
+2107,2018,10,22,attempted bombings,0,,0,, Georgia),Various cities across the United States (Katonah,Cesar Alteri Sayoc Jr.
 2108,2018,10,23,shooting,1,,1,, Philippines,Bato,New People’s Army
 2109,2018,10,23,shooting,2,,Several,, Nigeria,Borno State,Boko Haram
 2110,2018,10,23,car bombing,7,,40,, Iraq,Qayyarah,Islamic State
@@ -2148,9 +2148,9 @@ ID,Year,Month,Day,Type,Dead,Dead Perpetrator,Injured,Injured Perpetrator,Country
 2147,2018,10,26,shooting,3,7,3,, Philippines,Patikul,Abu Sayyaf
 2148,2018,10,26,bombing,0,,2,, Pakistan,North Waziristan,Tehrik-i-Taliban Pakistan (suspected)
 2149,2018,10,26,shooting,1,,0,, Cameroon,Bamenda,Ambazonia Defence Forces
-2150,2018,10,26-27,shooting,70,,106,, Syria,Al-Baghuz Fawqani,Islamic State
-2151,2018,10,26-27,ambushes,70,,106,, Syria,Al-Baghuz Fawqani,Islamic State
-2152,2018,10,26-27,suicide bombings,70,,106,, Syria,Al-Baghuz Fawqani,Islamic State
+2150,2018,10,26,shooting,70,,106,, Syria,Al-Baghuz Fawqani,Islamic State
+2151,2018,10,26,ambushes,70,,106,, Syria,Al-Baghuz Fawqani,Islamic State
+2152,2018,10,26,suicide bombings,70,,106,, Syria,Al-Baghuz Fawqani,Islamic State
 2153,2018,10,27,shooting,1,,0,, India,Nowgam,Jaish-e-Mohammed
 2154,2018,10,27,bombing,3,,9,, Mali,Ber,Al-Qaeda in the Islamic Maghreb
 2155,2018,10,27,shooting,3,,9,, Mali,Ber,Al-Qaeda in the Islamic Maghreb
@@ -2194,7 +2194,7 @@ ID,Year,Month,Day,Type,Dead,Dead Perpetrator,Injured,Injured Perpetrator,Country
 2193,2018,10,30,shooting,1,,0,, Iraq,Baghdad,Islamic State (suspected)
 2194,2018,10,30,bombing,0,,1,, Pakistan,North Waziristan,Tehrik-i-Taliban Pakistan
 2195,2018,10,30,shooting,0,,1,, Philippines,Guihulngan,New People's Army
-2196,2018,10,30-31,shooting,15,,20,, South Sudan,Jonglei State,Murle Gunmen
+2196,2018,10,30,shooting,15,,20,, South Sudan,Jonglei State,Murle Gunmen
 2197,2018,10,31,suicide bombing,0,1,3,, Russia,Arkhangelsk,Anarchist
 2198,2018,10,31,suicide bombing,7,1,5,, Afghanistan,Kabul,Islamic State
 2199,2018,10,31,bombing,4,,0,, Yemen,Dhale Governorate,Al-Qaeda in the Arabian Peninsula
@@ -2272,8 +2272,8 @@ ID,Year,Month,Day,Type,Dead,Dead Perpetrator,Injured,Injured Perpetrator,Country
 2271,2018,11,7,bombing,1,,1,, Libya,Derna,Derna Protection Force (suspected)
 2272,2018,11,7,bombing,5,,2,, Syria,Afrin,YPG (suspected)
 2273,2018,11,7,shooting,0,,2,, West Bank,Beit El,Palestinian Nationalist (suspected)
-2274,2018,11,7-8,shooting,27,,6,, Tajikistan,Khujand,Islamic State
-2275,2018,11,7-8,prison riot,27,,6,, Tajikistan,Khujand,Islamic State
+2274,2018,11,7,shooting,27,,6,, Tajikistan,Khujand,Islamic State
+2275,2018,11,7,prison riot,27,,6,, Tajikistan,Khujand,Islamic State
 2276,2018,11,8,arson,0,,0,, Argentina,El Hoyo,Resistencia Ancestral Mapuche
 2277,2018,11,8,shooting,0,,1,, Burkina Faso,Namssiguia,Al-Qaeda in the Islamic Maghreb
 2278,2018,11,8,attempted assassination,0,,0,, Spain,Terrassa,Manuel Murillo Sanchez (right-wing extremist)
@@ -2319,11 +2319,11 @@ ID,Year,Month,Day,Type,Dead,Dead Perpetrator,Injured,Injured Perpetrator,Country
 2318,2018,11,10,arson,1,,Several,, Nigeria,Jere,Boko Haram
 2319,2018,11,10,bombing,0,,6,, Colombia,Cesar Department,ELN
 2320,2018,11,10,arson,0,,6,, Colombia,Cesar Department,ELN
-2321,2018,11,10–11,shooting,6,,5 (kidnapped),, Democratic Republic of the Congo,Beni,Allied Democratic Forces
-2322,2018,11,10–11,kidnapping,6,,5 (kidnapped),, Democratic Republic of the Congo,Beni,Allied Democratic Forces
-2323,2018,11,10–11,looting,6,,5 (kidnapped),, Democratic Republic of the Congo,Beni,Allied Democratic Forces
-2324,2018,11,10-11,shooting,7,11,0,, Syria,Al-Safa,Islamic State
-2325,2018,11,10-11,bombing,7,11,0,, Syria,Al-Safa,Islamic State
+2321,2018,11,10,shooting,6,,5 (kidnapped),, Democratic Republic of the Congo,Beni,Allied Democratic Forces
+2322,2018,11,10,kidnapping,6,,5 (kidnapped),, Democratic Republic of the Congo,Beni,Allied Democratic Forces
+2323,2018,11,10,looting,6,,5 (kidnapped),, Democratic Republic of the Congo,Beni,Allied Democratic Forces
+2324,2018,11,10,shooting,7,11,0,, Syria,Al-Safa,Islamic State
+2325,2018,11,10,bombing,7,11,0,, Syria,Al-Safa,Islamic State
 2326,2018,11,11,shooting,13,2,Unknown,, Cameroon,Nkambe,Ambazonia Defence Forces
 2327,2018,11,11,ambush,13,2,Unknown,, Cameroon,Nkambe,Ambazonia Defence Forces
 2328,2018,11,11,bombing,1,,0,, India,Kanker district,CPI
@@ -2334,7 +2334,7 @@ ID,Year,Month,Day,Type,Dead,Dead Perpetrator,Injured,Injured Perpetrator,Country
 2333,2018,11,11,shooting,9,,0,, Iraq,Al-Karmah,Islamic State
 2334,2018,11,11,shooting,5,,0,, Mali,Mopti Region,Al-Qaeda in the Islamic Maghreb (suspected)
 2335,2018,11,11,bombing,2,,5,, Turkey,Şırnak Province,PKK
-2336,2018,11,11-12,shootings,50,1,19,3, Afghanistan,Farah Province,Taliban
+2336,2018,11,11,shootings,50,1,19,3, Afghanistan,Farah Province,Taliban
 2337,2018,11,12,shooting,1,,0,, Cameroon,Buea,Ambazonia Defence Forces
 2338,2018,11,12,car bombing,3,,24,, Syria,Jarabulus,YPG (suspected)
 2339,2018,11,12,attempted bikebombing,0,,0,, Greece,Vyronas,Revolutionary Self-Defense (suspected)
@@ -2348,7 +2348,7 @@ ID,Year,Month,Day,Type,Dead,Dead Perpetrator,Injured,Injured Perpetrator,Country
 2347,2018,11,12,shooting,2,,0,, Iraq,Kirkuk Governorate,Islamic State
 2348,2018,11,12,execution,2,,0,, Iraq,Kirkuk Governorate,Islamic State
 2349,2018,11,12,kidnapping,2,,0,, Iraq,Kirkuk Governorate,Islamic State
-2350,2018,11,12-13,multiple rocket and mortar attacks,1,,Dozens,,Southern District (Israel),Southern District (Israel),Izz ad-Din al-Qassam Brigades
+2350,2018,11,12,multiple rocket and mortar attacks,1,,Dozens,,Southern District (Israel),Southern District (Israel),Izz ad-Din al-Qassam Brigades
 2351,2018,11,13,bombing,0,,6,, Syria,Homs,Syrian Liberation Front (suspected)
 2352,2018,11,13,bombing,0,,0,, Colombia,Aguachica,ELN
 2353,2018,11,13,bombing,0,,11,, Afghanistan,Nangarhar Province,Islamic State (suspected)
@@ -2360,7 +2360,7 @@ ID,Year,Month,Day,Type,Dead,Dead Perpetrator,Injured,Injured Perpetrator,Country
 2359,2018,11,13,shooting,16,,35 (missing),, Nigeria,Borno State,Boko Haram
 2360,2018,11,13,melee attack,16,,35 (missing),, Nigeria,Borno State,Boko Haram
 2361,2018,11,13,shooting,0,,3,, Turkey,Çukurca,PKK
-2362,2018,11,13-14,shooting,10,15,5,, Afghanistan,Urozgan Province,Taliban
+2362,2018,11,13,shooting,10,15,5,, Afghanistan,Urozgan Province,Taliban
 2363,2018,11,14,bombing,0,,6,, India,Bijapur District,CPI
 2364,2018,11,14,shooting,3,,1,, Afghanistan,Pol-e Alam,Taliban
 2365,2018,11,14,bombing,0,,0,1, Argentina,Buenos Aires,Anarchists
@@ -2391,8 +2391,8 @@ ID,Year,Month,Day,Type,Dead,Dead Perpetrator,Injured,Injured Perpetrator,Country
 2390,2018,11,15,shooting,1,,0,, Burkina Faso,Bossey,Al-Qaeda in the Islamic Maghreb
 2391,2018,11,15,shootings,60,,Dozens,, Central African Republic,Alindao,Anti-balaka and Séléka
 2392,2018,11,15,arson,60,,Dozens,, Central African Republic,Alindao,Anti-balaka and Séléka
-2393,2018,11,15-16,arson,0,,0,,La Araucania Region and Bio-Bio Region,La Araucania Region and Bio-Bio Region,Coordinadora Arauco Malleco
-2394,2018,11,15-16,petrol bombing,0,,0,,La Araucania Region and Bio-Bio Region,La Araucania Region and Bio-Bio Region,Coordinadora Arauco Malleco
+2393,2018,11,15,arson,0,,0,,La Araucania Region and Bio-Bio Region,La Araucania Region and Bio-Bio Region,Coordinadora Arauco Malleco
+2394,2018,11,15,petrol bombing,0,,0,,La Araucania Region and Bio-Bio Region,La Araucania Region and Bio-Bio Region,Coordinadora Arauco Malleco
 2395,2018,11,16,shooting,22,,0,, Syria,Hama Governorate,Guardians of Religion Organization
 2396,2018,11,16,arson,0,,0,, Argentina,Villa Mascardi,Resistencia Ancestral Mapuche
 2397,2018,11,16,execution,2,,0,, Syria,Al-Shaafah,Islamic State
@@ -2489,7 +2489,7 @@ ID,Year,Month,Day,Type,Dead,Dead Perpetrator,Injured,Injured Perpetrator,Country
 2488,2018,11,23,kidnapping,9,,11,, Libya,Tazirbu,Islamic State
 2489,2018,11,23,shooting,1,,1,, Democratic Republic of the Congo,Beni,Allied Democratic Forces
 2490,2018,11,23,bombing,2,,2,, Colombia,El Tarra,ELN
-2491,2018,11,23-25,shootings,92,61,?,, Syria,Deir ez-Zor Governorate,Islamic State
+2491,2018,11,23,shootings,92,61,?,, Syria,Deir ez-Zor Governorate,Islamic State
 2492,2018,11,24,kidnapping,0,,3 Kidnapped,, Cameroon,Muyuka,Ambazonian separatist
 2493,2018,11,24,bombing,10,,Several,, Somalia,Balad,Al-Shabaab
 2494,2018,11,24,shooting,10,,Several,, Somalia,Balad,Al-Shabaab
@@ -2562,9 +2562,9 @@ ID,Year,Month,Day,Type,Dead,Dead Perpetrator,Injured,Injured Perpetrator,Country
 2561,2018,12,1,shooting,1,,1,, Pakistan,Machh,Lashkar-e-Jhangvi
 2562,2018,12,1,suicide bombings,0,2,5,, Nigeria,Maiduguri,Boko Haram
 2563,2018,12,1,bombing,5,,0,, Burkina Faso,Bangou,Al-Qaeda in the Islamic Maghreb (suspected)
-2564,2018,12,1–2,shooting,4,,0,, Mozambique,Mocímboa da Praia District,Ansar al Sunna
-2565,2018,12,1–2,arson,4,,0,, Mozambique,Mocímboa da Praia District,Ansar al Sunna
-2566,2018,12,1–2,melee attack,4,,0,, Mozambique,Mocímboa da Praia District,Ansar al Sunna
+2564,2018,12,1,shooting,4,,0,, Mozambique,Mocímboa da Praia District,Ansar al Sunna
+2565,2018,12,1,arson,4,,0,, Mozambique,Mocímboa da Praia District,Ansar al Sunna
+2566,2018,12,1,melee attack,4,,0,, Mozambique,Mocímboa da Praia District,Ansar al Sunna
 2567,2018,12,2,assassination,1,,0,, India,Rajnandgaon district,PLGA
 2568,2018,12,2,kidnapping,0,,60,, Afghanistan,Dara-I-Suf District,Taliban
 2569,2018,12,2,artillery shelling,1,,1,, Syria,Hama Governorate,Guardians of Religion Organization (suspected)
@@ -2593,7 +2593,7 @@ ID,Year,Month,Day,Type,Dead,Dead Perpetrator,Injured,Injured Perpetrator,Country
 2592,2018,12,4,bombing,2,,1,, Afghanistan,Zhari District,Taliban
 2593,2018,12,4,shooting,1,,1 Kidnapped,, Afghanistan,Jalalabad City,Taliban
 2594,2018,12,4,kidnapping,1,,1 Kidnapped,, Afghanistan,Jalalabad City,Taliban
-2595,2018,12,4–5,shootings,1,,2,, Nigeria,Borno State,Boko Haram
+2595,2018,12,4,shootings,1,,2,, Nigeria,Borno State,Boko Haram
 2596,2018,12,5,shooting,6,7,0,, Syria,Tadmur District,Islamic State
 2597,2018,12,5,shooting,3,,Several,, Syria,Abu Kamal,Islamic State
 2598,2018,12,5,shooting,0,,0,, Philippines,Ampatuan,Bangsamoro Islamic Freedom Fighters
@@ -2617,8 +2617,8 @@ ID,Year,Month,Day,Type,Dead,Dead Perpetrator,Injured,Injured Perpetrator,Country
 2616,2018,12,6,shooting,1,,0,, Iraq,Al-Shu'ala,Islamic State (suspected)
 2617,2018,12,6,shooting,2,,0,, Burkina Faso,Kiembara,Al-Qaeda in the Islamic Maghreb (suspected)
 2618,2018,12,6,ambush,2,,0,, Burkina Faso,Kiembara,Al-Qaeda in the Islamic Maghreb (suspected)
-2619,2018,12,6–7,shootings,7,,Dozens,, Nigeria,Borno State,Boko Haram
-2620,2018,12,6–7,arson,7,,Dozens,, Nigeria,Borno State,Boko Haram
+2619,2018,12,6,shootings,7,,Dozens,, Nigeria,Borno State,Boko Haram
+2620,2018,12,6,arson,7,,Dozens,, Nigeria,Borno State,Boko Haram
 2621,2018,12,7,bombing,0,,2,, Colombia,Hacarí,ELN
 2622,2018,12,7,shooting,14,,21,, Afghanistan,Shindand District,Taliban
 2623,2018,12,7,kidnapping,14,,21,, Afghanistan,Shindand District,Taliban
@@ -2637,7 +2637,7 @@ ID,Year,Month,Day,Type,Dead,Dead Perpetrator,Injured,Injured Perpetrator,Country
 2636,2018,12,8,bombing,0,,3,, Kenya,Lamu County,Al-Shabaab (suspected)
 2637,2018,12,8,shooting,2,2,2,, Nigeria,Bama,Boko Haram
 2638,2018,12,8,suicide bombing,2,2,2,, Nigeria,Bama,Boko Haram
-2639,2018,12,8–9,shooting,0,3,5,, India,Srinagar,Lashkar-e-Taiba
+2639,2018,12,8,shooting,0,3,5,, India,Srinagar,Lashkar-e-Taiba
 2640,2018,12,9,bombing,3,,2,, Somalia,Mogadishu,Al-Shabaab
 2641,2018,12,9,shelling,1,,1,, Syria,Hama Governorate,Tahrir al-Sham
 2642,2018,12,9,shooting,20,,17,, Afghanistan,Farah Province and Faryab Province,Taliban
@@ -2665,8 +2665,8 @@ ID,Year,Month,Day,Type,Dead,Dead Perpetrator,Injured,Injured Perpetrator,Country
 2664,2018,12,11,grenade attack,0,,0,, Colombia,Tibú,EPL
 2665,2018,12,11,shooting,42,,0,, Mali,Ménaka Region,Islamic State (suspected)
 2666,2018,12,11,shooting,10,,11,, Afghanistan,Kunduz Province,Taliban
-2667,2018,12,11–13,shooting,5,1,12,, France,Strasbourg,Cherif Chekatt
-2668,2018,12,11–13,stabbing,5,1,12,, France,Strasbourg,Cherif Chekatt
+2667,2018,12,11,shooting,5,1,12,, France,Strasbourg,Cherif Chekatt
+2668,2018,12,11,stabbing,5,1,12,, France,Strasbourg,Cherif Chekatt
 2669,2018,12,12,grenade attack,0,2,2,, Russia,Nazran,Islamists (suspected)
 2670,2018,12,12,shooting,7,,4,, Afghanistan,Jurm District,Taliban
 2671,2018,12,12,car bombing,2,,21,, Syria,Azaz,YPG
@@ -2698,9 +2698,9 @@ ID,Year,Month,Day,Type,Dead,Dead Perpetrator,Injured,Injured Perpetrator,Country
 2697,2018,12,15,shooting,2,,0,, Syria,Diban,Islamic State
 2698,2018,12,15,rocket attack,3,,4,, Afghanistan,Gardez,Taliban (suspected)
 2699,2018,12,15,bombing,3,,0,, Iraq,Ramadi,Islamic State
-2700,2018,12,15-16,shootings,16,12,6,7, Afghanistan,Kandahar Province,Taliban
-2701,2018,12,15-16,shooting,3,,3,, Egypt,Sinai Peninsula,Islamic State
-2702,2018,12,15-16,kidnapping,3,,3,, Egypt,Sinai Peninsula,Islamic State
+2700,2018,12,15,shootings,16,12,6,7, Afghanistan,Kandahar Province,Taliban
+2701,2018,12,15,shooting,3,,3,, Egypt,Sinai Peninsula,Islamic State
+2702,2018,12,15,kidnapping,3,,3,, Egypt,Sinai Peninsula,Islamic State
 2703,2018,12,16,arson,0,,8,, Ireland,Roscommon,Dissident Republican
 2704,2018,12,16,attack,0,,8,, Ireland,Roscommon,Dissident Republican
 2705,2018,12,16,shooting,15,,24,, Nigeria,Jema'a,Fulani Militants
@@ -2723,9 +2723,9 @@ ID,Year,Month,Day,Type,Dead,Dead Perpetrator,Injured,Injured Perpetrator,Country
 2722,2018,12,18,shooting,3,,0,, Iraq,Mosul,Islamic State
 2723,2018,12,18,ambush,0,,6,, Philippines,Catarman,New People's Army
 2724,2018,12,18,shooting,0,,6,, Philippines,Catarman,New People's Army
-2725,2018,12,18-21,shooting,4,,0,, Mozambique,Macomia District,Ansar al Sunna
-2726,2018,12,18-21,arson,4,,0,, Mozambique,Macomia District,Ansar al Sunna
-2727,2018,12,18-21,beheading,4,,0,, Mozambique,Macomia District,Ansar al Sunna
+2725,2018,12,18,shooting,4,,0,, Mozambique,Macomia District,Ansar al Sunna
+2726,2018,12,18,arson,4,,0,, Mozambique,Macomia District,Ansar al Sunna
+2727,2018,12,18,beheading,4,,0,, Mozambique,Macomia District,Ansar al Sunna
 2728,2018,12,18,kidnapping,0,,7 Kidnapped,, Cameroon,Bamenda,Ambazonia separatist
 2729,2018,12,18,shooting,3,8,0,, Afghanistan,Zabul Province,Taliban
 2730,2018,12,19,bombing,10,,1,, Ethiopia,Benishangul-Gumuz Region,Oromo Liberation Front
@@ -2882,9 +2882,9 @@ ID,Year,Month,Day,Type,Dead,Dead Perpetrator,Injured,Injured Perpetrator,Country
 2881,2019,2,22,hostage taking,0,,3,, Spain,Madrid,Free Joseon
 2882,2019,2,22,knife attack,0,,3,, Spain,Madrid,Free Joseon
 2883,2019,2,24,attempted hijacking,0,1,1,,Bangladesh,Bangladesh,Mohammed Polash Ahmed
-2884,2019,2,28-1,suicide car bombings,29,2,80,, Somalia,Mogadishu,Al-Shabaab
-2885,2019,2,28-1,shooting,29,2,80,, Somalia,Mogadishu,Al-Shabaab
-2886,2019,2,28-1,grenade attack,29,2,80,, Somalia,Mogadishu,Al-Shabaab
+2884,2019,2,28,suicide car bombings,29,2,80,, Somalia,Mogadishu,Al-Shabaab
+2885,2019,2,28,shooting,29,2,80,, Somalia,Mogadishu,Al-Shabaab
+2886,2019,2,28,grenade attack,29,2,80,, Somalia,Mogadishu,Al-Shabaab
 2887,2019,3,9,shooting,15,,5,, México,Salamanca,Jalisco New Generation Cartel
 2888,2019,3,13,bombing,8,,40,, Somalia,Bay Region,Al-Shabaab
 2889,2019,3,15,mass shooting,51,,49,, New Zealand,Christchurch,Brenton Harrison Tarrant
@@ -2899,7 +2899,7 @@ ID,Year,Month,Day,Type,Dead,Dead Perpetrator,Injured,Injured Perpetrator,Country
 2898,2019,3,23,arson,160,,0,, Mali,Mopti Region,Dozo Dogon Militants
 2899,2019,3,24,arson,0,,0,, United States of America,Escondido,John T. Earnest
 2900,2019,3,28,car bombing,15,,20,, Somalia,Mogadishu,Al-Shabaab (suspected)
-2901,2019,4,2 and 4,arson,0,,0,, United States of America,Opelousas,Holden Matthews
+2901,2019,4,2 ,arson,0,,0,, United States of America,Opelousas,Holden Matthews
 2902,2019,4,9,suicide bombing,7,1,26,, Egypt,Sheikh Zuweid,Islamic State
 2903,2019,4,12,suicide bombing,20,1,48,, Pakistan,Quetta,Lashkar-e-Jhangvi, Islamic State[11][12]
 2904,2019,4,18,shooting,14,,0,, Pakistan,Makran Coastal Highway,Baloch nationalists
@@ -2912,7 +2912,7 @@ ID,Year,Month,Day,Type,Dead,Dead Perpetrator,Injured,Injured Perpetrator,Country
 2911,2019,4,27,shooting,1,,3,, United States,Poway,John T. Earnest
 2912,2019,4,27,kindapping,0,,1 Kidnapped,, Cameroon,Kumbo,Ambazonian Fighters
 2913,2019,5,1,bombing,16,,Unknown,, India,Gadchiroli,Naxalite
-2914,2019,5,3–6,rocket attacks,19,10,270–400+,,Southern Israel,Southern Israel,Hamas, Palestinian Islamic Jihad, National Resistance Brigades, Tawhid al-Jihad, and Israel Defense Forces
+2914,2019,5,3,rocket attacks,19,10,270–400+,,Southern Israel,Southern Israel,Hamas, Palestinian Islamic Jihad, National Resistance Brigades, Tawhid al-Jihad, and Israel Defense Forces
 2915,2019,5,8,suicide bombing,13,1,24,, Pakistan,Lahore,Jamaat-ul-Ahrar
 2916,2019,5,11,shooting,5,3,6[13],, Pakistan,Gwadar,Balochistan Liberation Army
 2917,2019,5,24,bombing,3,,20,, Afghanistan,Kabul,Taliban or Islamic State (suspected)
@@ -2923,14 +2923,14 @@ ID,Year,Month,Day,Type,Dead,Dead Perpetrator,Injured,Injured Perpetrator,Country
 2922,2019,6,2,assassination,1,,0,, Germany,Kassel,Combat 18
 2923,2019,6,3,bombing,4,1,0,, Lebanon,Tripoli,Islamic State
 2924,2019,6,3,shooting,4,1,0,, Lebanon,Tripoli,Islamic State
-2925,2019,6,3–10,shooting,118,,650+,, Sudan,Khartoum,TMC security forces, RSF
-2926,2019,6,3–10,melee attack,118,,650+,, Sudan,Khartoum,TMC security forces, RSF
-2927,2019,6,3–10,stabbing,118,,650+,, Sudan,Khartoum,TMC security forces, RSF
-2928,2019,6,3–10,vehicular attack,118,,650+,, Sudan,Khartoum,TMC security forces, RSF
+2925,2019,6,3,shooting,118,,650+,, Sudan,Khartoum,TMC security forces, RSF
+2926,2019,6,3,melee attack,118,,650+,, Sudan,Khartoum,TMC security forces, RSF
+2927,2019,6,3,stabbing,118,,650+,, Sudan,Khartoum,TMC security forces, RSF
+2928,2019,6,3,vehicular attack,118,,650+,, Sudan,Khartoum,TMC security forces, RSF
 2929,2019,6,10,shooting,35,,Unknown,, Mali,Mopti Region,Fulani militia or jihadists (suspected)
-2930,2019,6,10–17,shooting,240+,,Unknown,, Democratic Republic of the Congo,Ituri Province,Lendu and Hema militias
-2931,2019,6,10–17,attacks,240+,,Unknown,, Democratic Republic of the Congo,Ituri Province,Lendu and Hema militias
-2932,2019,6,10–17,massacres,240+,,Unknown,, Democratic Republic of the Congo,Ituri Province,Lendu and Hema militias
+2930,2019,6,10,shooting,240+,,Unknown,, Democratic Republic of the Congo,Ituri Province,Lendu and Hema militias
+2931,2019,6,10,attacks,240+,,Unknown,, Democratic Republic of the Congo,Ituri Province,Lendu and Hema militias
+2932,2019,6,10,massacres,240+,,Unknown,, Democratic Republic of the Congo,Ituri Province,Lendu and Hema militias
 2933,2019,6,12,rocket attack,0,,26,, Saudi Arabia,Abha,Houthi movement
 2934,2019,6,12,shooting,6,1,3,, India,Anantnag,Jaish-e-Mohammad
 2935,2019,6,16,suicide bombings,30,3,40+,, Nigeria,Konduga,Boko Haram
@@ -3032,10 +3032,10 @@ ID,Year,Month,Day,Type,Dead,Dead Perpetrator,Injured,Injured Perpetrator,Country
 3031,2020,2,19,shootings,10,1,5,, Germany,Hanau,Right-wing extremist
 3032,2020,2,21,melee attack,1,,0,, Canada,Toronto,Saad Akhtar
 3033,2020,2,23,bombing,0,,29,, Ethiopia,Addis Ababa,Oromo Liberation Front (suspected)
-3034,2020,2,24,stabbing,1,,1,, Canada,Toronto,Incel
-3035,2020,3,6,mass shooting,32,2,82,, Afghanistan,Kabul,Islamic State
-3036,2020,3,6,missile attack,32,2,82,, Afghanistan,Kabul,Islamic State
-3037,2020,3,11-14,rocket attacks,3,,21,, Iraq,Taji,Kata'ib Hezbollah (suspected)
+3034,2020,2,24,stabbing,1,,2,, Canada,Toronto,Incel
+3035,2020,3,6,mass shooting,32,2,82,, Afghanistan,Kabul,IS-KP
+3036,2020,3,6,missile attack,32,2,82,, Afghanistan,Kabul,IS-KP
+3037,2020,3,11,rocket attacks,3,,21,, Iraq,Taji,Kata'ib Hezbollah (suspected)
 3038,2020,3,23,ambush,92,,Several,, Chad,Lac Region,Boko Haram
 3039,2020,3,23,ambush,70+,,Several,, Nigeria,Borno State,Boko Haram
 3040,2020,3,25,suicide bombings,25,3,9,, Afghanistan,Kabul,IS-KP
@@ -3044,24 +3044,40 @@ ID,Year,Month,Day,Type,Dead,Dead Perpetrator,Injured,Injured Perpetrator,Country
 3043,2020,3,26,hostage-taking,1,,2,, Mali,Tombouctou Region,Unknown
 3044,2020,3,26,ambush,1,,2,, Mali,Tombouctou Region,Unknown
 3045,2020,4,4,stabbing,2,,5,, France,Romans-sur-Isère,Abdallah Ahmed-Osman
-3046,2020,4,5,suicide bombing,7,,0,, Cameroon,Amchide,Boko Haram (suspected)
+3046,2020,4,5,suicide bombing,7,2,0,, Cameroon,Amchide,Boko Haram (suspected)
 3047,2020,4,6,shooting,20,,0,, Mali,Bamba,JNIM
 3048,2020,4,7,shooting,52,,0,, Mozambique,Muidumbe District,Islamic State's Central African Province (suspected)
 3049,2020,4,7,beheading,52,,0,, Mozambique,Muidumbe District,Islamic State's Central African Province (suspected)
-3050,2020,4,21,shooting,1,,0,, Myanmar,Rakhine State,Rakhine Nationalists (suspected)
-3051,2020,4,24,shooting,17,,0,, Democratic Republic of the Congo,Virunga National Park,Democratic Forces for the Liberation of Rwanda (suspected)
-3052,2020,4,24,shooting,0,,0,, Myanmar,Shan State,Shan State Army - North (suspected)
-3053,2020,4,27,vehicle ramming,0,,2,, France,Colombes,Islamic State
-3054,2020,4,28,suicide bombing,53,,50+,, Syria,Afrin,YPG (suspected)
-3055,2020,4,29,suicide bombing,3,,15,, Afghanistan,Char Asiab District,Fidai Mahaz (suspected)
-3056,2020,5,1,bombing,10,,Unknown,, Egypt,Bir al-Abd,Islamic State - Sinai Province
-3057,2020,5,2,shooting,10,,0,, Iraq,Baghdad,Islamic State
-3058,2020,5,11,ambush,4,25,Unknown,, Burkina Faso,Tacha,Jama'at Nasr al-Islam wal Muslimin (suspected)
-3059,2020,5,12,mass shooting,24,3,16,, Afghanistan,Kabul,Islamic State – Khorasan Province (suspected)
-3060,2020,5,12,suicide bombing,32,1,133,, Afghanistan,Kuz Kunar,Islamic State – Khorasan Province
-3061,2020,5,14,suicide car bombing,5,1,29,, Afghanistan,Gardez,Taliban
-3062,2020,5,17,suicide car bombing,4,1,Unknown,, Somalia,Mudug,Al-Shabaab
-3063,2020,5,18,suicide car bombing,7,1,40,, Afghanistan,Ghazni,Taliban
-3064,2020,5,19,motorbike bombing,13,10,73,, Afghanistan,Kunduz,Taliban
-3065,2020,5,19,shootout,13,10,73,, Afghanistan,Kunduz,Taliban
-3066,2020,5,21,shooting,0,1,1,, United States,Corpus Christi,Currently unknown
+3050,2020,4,17,shooting,11,,14,, Philippines,Sulu,Abu Sayyaf (suspected)
+3051,2020,4,21,shooting,1,,0,, Myanmar,Rakhine State,Rakhine Nationalists (suspected)
+3052,2020,4,24,shooting,17,,0,, Democratic Republic of the Congo,Virunga National Park,Democratic Forces for the Liberation of Rwanda (suspected)
+3053,2020,4,24,shooting,0,,0,, Myanmar,Shan State,Shan State Army - North (suspected)
+3054,2020,4,27,vehicle ramming,0,,2,, France,Colombes,Islamic State
+3055,2020,4,28,suicide bombing,53,1,50+,, Syria,Afrin,YPG (suspected)
+3056,2020,4,29,suicide bombing,3,1,15,, Afghanistan,Char Asiab District,Fidai Mahaz (suspected)
+3057,2020,5,1,bombing,10,,Unknown,, Egypt,Bir al-Abd,Islamic State – Sinai Province
+3058,2020,5,1,gunfight,13,2,17,, Afghanistan,Zari District,Taliban
+3059,2020,5,2,shooting,10,,0,, Iraq,Baghdad,Islamic State
+3060,2020,5,2,motorbike bombing,3,,4,, Afghanistan,Mihtarlam,Unknown
+3061,2020,5,3,truck bombing,5,,7,, Afghanistan,Grishk,Taliban
+3062,2020,5,3,grenade attack,0,,20,, Afghanistan,Khairkot,Taliban
+3063,2020,5,4,bombing,0,,4,, Afghanistan,Kabul,Unknown
+3064,2020,5,11,ambush,4,25,Unknown,, Burkina Faso,Tacha,Jama'at Nasr al-Islam wal Muslimin (suspected)
+3065,2020,5,12,mass shooting,24,3,16,, Afghanistan,Kabul,Islamic State – Khorasan Province (suspected)
+3066,2020,5,12,suicide bombing,32,1,133,, Afghanistan,Kuz Kunar,Islamic State – Khorasan Province
+3067,2020,5,14,suicide car bombing,5,1,29,, Afghanistan,Gardez,Taliban
+3068,2020,5,17,suicide car bombing,4,1,Unknown,, Somalia,Mudug,Al-Shabaab
+3069,2020,5,18,suicide car bombing,7,1,40,, Afghanistan,Ghazni,Taliban
+3070,2020,5,18,mass shooting,20,,25,, Nigeria,Borno State,Boko Haram
+3071,2020,5,19,motorbike bombing,13,10,73,, Afghanistan,Kunduz,Taliban
+3072,2020,5,19,shootout,13,10,73,, Afghanistan,Kunduz,Taliban
+3073,2020,5,21,shooting,0,1,1,, United States,Corpus Christi,Adam Alsalhi
+3074,2020,5,24,mass shooting,9,17,0,, Democratic Republic of the Congo,Beni,Allied Democratic Forces
+3075,2020,5,25,mass shooting,17,,0,, Democratic Republic of the Congo,Ituri Province,Allied Democratic Forces
+3076,2020,5,26,melee attack,40,,0,, Democratic Republic of the Congo,Ituri Province,Allied Democratic Forces
+3077,2020,5,29,mass shooting,14,2,3,, Afghanistan,Dand Aw Patan District,Taliban
+3078,2020,5,29,shooting,1,,1,, United States,Oakland,Unknown
+3079,2020,5,30,mass shooting,25,,Unknown,, Burkina Faso,Kompienga Province,Islamists
+3080,2020,5,30,bombing,2,,7,, Afganistan,Kabul,Islamic State – Khorasan Province
+3081,2020,5,30,ambush,10,,20,,Burkina Faso,Burkina Faso,Islamists
+3082,2020,5,31,bombing,9,,10,, Somalia,Hawa Abdi,Al-Shabaab

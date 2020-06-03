@@ -106,13 +106,20 @@ public class main {
                     if (row.select("td:nth-of-type(1)").text().equals("")) {
                         continue;
                     } else {
-                        final String day = row.select("td:nth-of-type(1)").text();
+                        String days = row.select("td:nth-of-type(1)").text();
                         String type = row.select("td:nth-of-type(2)").text();
                         String dead = row.select("td:nth-of-type(3)").text();
                         String injured = row.select("td:nth-of-type(4)").text();
                         String location = row.select("td:nth-of-type(5)").text();
                         //final String details = row.select("td:nth-of-type(6)").text();
                         final String perpetrator = row.select("td:nth-of-type(7)").text();
+
+                        String day = "";
+                        day = days.split("\\p{Pd}")[0];
+                        if(day.contains("and")){
+                            day = day.split("and")[0];
+                        }
+
 
                         String deadPerpetrator = "";
                         if (dead.contains("(+")) {
