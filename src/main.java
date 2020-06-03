@@ -126,12 +126,14 @@ public class main {
                             deadPerpetrator = dead.split("\\(\\+")[1].split("\\)")[0];
                             dead = dead.split("\\(\\+")[0].trim();
                         }
+                        dead = dead.split("\\p{Pd}")[0];
 
                         String injuredPerpetrator = "";
                         if (injured.contains("(+")) {
                             injuredPerpetrator = injured.split("\\(\\+")[1].split("\\)")[0];
                             injured = injured.split("\\(\\+")[0].trim();
                         }
+                        injured = injured.split("\\p{Pd}")[0];
 
                         String city = "";
                         String country = "";
